@@ -1,0 +1,53 @@
+/* Reset CSS default */
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin: 20px;
+}
+
+.icon img {
+    width: 150px; /* Lebih besar untuk efek keren */
+    height: 150px;
+    border-radius: 50%; /* Agar ikon menjadi lingkaran */
+    background-color: #007bff; /* Warna latar belakang keren */
+    padding: 10px; /* Ruang di sekitar ikon */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Efek bayangan keren */
+}
+
+.text h1 {
+    margin-top: 20px; /* Lebih banyak ruang antara ikon dan teks */
+    font-size: 24px; /* Ukuran teks yang lebih besar */
+    color: #333; /* Warna teks yang lebih lembut */
+}
+
+.buttons {
+    margin-top: 30px; /* Lebih banyak ruang antara teks dan tombol */
+}
+
+button {
+    padding: 12px 24px; /* Ukuran tombol yang lebih besar */
+    margin: 10px; /* Ruang antara tombol */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Tombol dengan sudut melengkung */
+}
+
+.primary-button {
+    background-color: #007bff; /* Warna latar belakang tombol utama */
+    color: white; /* Warna teks pada tombol utama */
+    font-weight: bold;
+}
+
+.secondary-button {
+    background-color: #333; /* Warna latar belakang tombol sekunder */
+    color: white; /* Warna teks pada tombol sekunder */
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.8; /* Efek transparansi saat mengarahkan kursor pada tombol */
+}
