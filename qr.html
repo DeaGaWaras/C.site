@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code</title>
+    <style>
+        body {
+            background-color: #000080;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        #qr-container {
+            margin-top: 25px;
+        }
+
+        #qr-code-img {
+            width: 100%; /* Mengisi lebar kontainer */
+            max-width: 400px; /* Membatasi lebar gambar */
+            height: auto; /* Menyesuaikan tinggi dengan lebar sesuai aspek rasio */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+        }
+
+        .mbanking-icons {
+            margin-top: 2px;
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+        }
+
+        .mbanking-icons img {
+            width: 48px; /* Lebar ikon tetap */
+            height: auto; /* Menyesuaikan tinggi dengan lebar sesuai aspek rasio */
+            margin: 10px;
+            border-radius: 25px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to the QR Code Celestial World!</h1>
+    <p>Scan the QR code below for Celestial payments:</p>
+
+    <div id="qr-container">
+        <img id="qr-code-img" src="qr.jpg" alt="QR Code">
+    </div>
+
+    <p>QRIS supports all the applications below:</p>
+    <div class="mbanking-icons">
+        <img src="https://telegra.ph/file/5b64d04589ceb33bc5eb9.jpg" alt="Dana">
+        <img src="https://telegra.ph/file/c7157bb8a0285a20e7902.jpg" alt="Shopee">
+        <img src="https://telegra.ph/file/7a5c5e03a162506dbc5dd.jpg" alt="Ovo">
+        <img src="https://telegra.ph/file/798a3c8798adb18749f09.jpg" alt="Gopay">
+        <img src="https://telegra.ph/file/51eb07d7d3d27f3ffb263.jpg" alt="LinkAja">
+    </div>
+
+</body>
+</html>
