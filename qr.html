@@ -36,8 +36,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 90vw;
-    max-height: 90vh;
+    max-width: 70vw; /* Adjust the width as needed */
+    max-height: 70vh; /* Adjust the height as needed */
     overflow-y: auto;
     padding: 2rem;
     background-color: #ffffff;
@@ -121,16 +121,50 @@ div:last-child button:hover {
     text-align: center;
     display: inline-block;
 }
+
 #linksbutton {
             margin-top: 2rem;
         }
 
+h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 8px; /* Menambahkan border-radius untuk membuat gambar sedikit bundar */
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    text-align: left; /* Menggeser teks daftar ke kiri */
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 0.5rem;
+}
+h2:first-child {
+    margin-top: 1.5rem;
+}
 
     </style>
 </head>
 
 <body class="bg-gray-100">
-    <div class="container">
+<div class="container">
         <h1>QR Code Celestial World</h1>
         <p>Scan the QR code below for Celestial payments:</p>
 
@@ -146,13 +180,12 @@ div:last-child button:hover {
             <img src="https://telegra.ph/file/798a3c8798adb18749f09.jpg" alt="Gopay">
             <img src="https://telegra.ph/file/51eb07d7d3d27f3ffb263.jpg" alt="LinkAja">
         </div>
-        <div class="button-container">
         <div id="linksbutton" class="pl-4 pr-4">
-            <a id="link3" class="links" href="https://wa.me/6285785243511?text=!XVip" target="_blank">Read More</a>
-            <a id="link3" class="links" href="https://wa.me/6283117436733" target="_blank">Contact</a>
-            <a id="link3" class="links" href="./price.html" target="_blank">Price</a>
-        </div>
-    </div>
+                        <a id="link1" class="links" href="https://wa.me/6285785243511?text=!XVip" target="_blank" style="border-radius: 15px; background-color: #007bff; color: #ffffff;">Read More</a>
+                        <a id="link2" class="links" href="https://wa.me/6283117436733" target="_blank" style="border-radius: 15px; background-color: #007bff; color: #ffffff;">Contacts</a>
+                        <a id="link3" class="links" href="./qr.html" target="_blank" style="border-radius: 15px; background-color: #007bff; color: #ffffff;">Payment </a>
+                        <a id="link4" class="links" href="./index.html" target="_blank" style="border-radius: 15px; background-color: #007bff; color: #ffffff;">Home</a>
+                    </div>
     </div>
 
     <div id="particles-js" class="absolute inset-0"></div>
